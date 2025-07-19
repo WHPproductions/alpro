@@ -7,12 +7,12 @@
  *
  * @author USER
  */
-public class LihatAbsen extends javax.swing.JPanel {
+public class LihatPengajuanCuti_Admin extends javax.swing.JPanel {
 
     /**
      * Creates new form LihatDataPegawai
      */
-    public LihatAbsen() {
+    public LihatPengajuanCuti_Admin() {
         initComponents();
     }
 
@@ -31,7 +31,7 @@ public class LihatAbsen extends javax.swing.JPanel {
         jTable1 = new javax.swing.JTable();
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jLabel1.setText("Lihat Absensi Pegawai ");
+        jLabel1.setText("Lihat Pengajuan Cuti");
 
         jTextField1.setText("Search");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
